@@ -1,0 +1,27 @@
+ol li:first-child{
+    color: red;
+}
+
+ol li:nth-child(2){
+    color: blue;
+}
+
+ol li{
+    color: green;
+}
+
+p::first-line{
+    background-color: pink;
+}
+
+p + p::first-line {
+    background-color: lightblue ;
+}
+
+p::selection{
+    background-color: yellow;
+}
+
+form :required{
+    background-color: aqua;
+}

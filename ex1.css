@@ -1,0 +1,48 @@
+h1 {
+    font-size: xxx-large;
+    color: rgb(0, 255, 255);
+}
+h2 {
+    font-size: xx-large;
+    color: rgb(0, 235, 255);
+}
+h3 {
+    font-size: x-large;
+    color: rgb(0, 215, 255);
+}
+h4 {
+    font-size: large;
+    color: rgb(0, 200, 255);
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Lucida San',Verdana,Geneva;
+}
+
+nav ul li.active a {
+    color: aquamarine;
+    font-size: large;
+}
+
+nav ul li:hover{
+    color: red;
+}
+
+.job-description p{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#education table tr:nth-child(2n){
+    background-color: greenyellow;
+}
+
+#education table tr:nth-child(2n+1){
+    background-color: brown;
+}
