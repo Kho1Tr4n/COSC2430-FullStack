@@ -1,0 +1,48 @@
+/*Excercise 2*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: aquamarine;
+    width: 100%;
+}
+
+footer{
+    background-color: aquamarine;
+    width: 100%;
+}
+
+#left{
+    background-color: bisque;
+    width: 30%;
+    min-width: 200px;
+    margin: 0;
+}
+
+#right{
+    background-color: beige;
+    width: 15%;
+    margin: 0;
+}
+
+#main{
+    background-color: greenyellow;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main{
+    flex: 1;
+}
+
+/*Excercise 4*/
+
+header{
+    position:sticky;
+    margin-bottom: 100px;
+    top: 0;
+}
+

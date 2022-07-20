@@ -1,0 +1,58 @@
+/* Set all the element have same font */
+*{
+    font-family: 'Arial',sans-serif ;
+}
+
+/* Set each heading have same font*/
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bebas Neue', cursive;
+}
+
+html{
+    font-size: 12pt;
+}
+
+main{
+    font-size: 24pt;
+}
+
+main p{
+    font-size: 1rem;
+    background-color: bisque;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 125%;
+}
+
+h3{
+    font-size: 3vh;
+}
+
+a{
+    font-style: italic;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 0.5em;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p span{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
