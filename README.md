@@ -1,2 +1,2 @@
-# COSC2430-FullStack
-Assignment Full-stack Web Application
+# COSC2430
+The solution for excercises
